@@ -1,50 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>My Contact</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Contact ILHAM | D121171309</title>
 </head>
 <body>
-		<div>
-				<h1>My Contact Details</h1>
-				<h3>Hamba Allah</h3>
-				<h3>D121171309</h3>
-				<h3>ilhamdasilva.in@gmail.com</h3>
-		</div>
-	<hr>
-	<div>
-	<form action="Contact.html" method="GET">
-		<label>Tanggal</label>
-		<input type="date" name="Tanggal">
-		<br><br>
-		<label>Your Name</label>
-		<Input type="text" name="name" placeholder="name">
-		<input type="text" name="lastname" placeholder="lastname">
-		<br><br>
-		<label>Your Email</label>
-		<input type="text" name="Email" placeholder="****@gmail.com">
-		<br><br>
-		<input type="radio" name="gender" value="Pria">
-		<label>Pria</label>
-		<input type="radio" name="gender" value="Wanita">
-		<label>Wanita</label>
-		<br><br>
-		<label>Your message</label><br>
-		<textarea rows="15" cols="35" name="message"></textarea>
-		<br>
-		<label>Warna Kesukaan</label>
-		<input type="color" name="Warna"><br><br>
-		<label>pendidikan terakhir</label><br>
-		<select name="pendidikan terakhir">
-			<option>sd</option>
-			<option>smp</option>
-			<option>sma</option>
-			<option>S1</option>
-			<option>S2</option>
-			<option>S3</option>
-		</select>
-		<br><br>
-		<input type="submit" value="submit">
-	</form>
-		</div>
+    <div class="header">
+    <h1>My Contact Detail</h1><br>
+    <h3>Perum. Berua indah, blok A12/02 Paccerakkang, Kota Makassar</h3>
+    <h3>ilhamdasilva.in@gmail.com</h3>
+    <hr>
+    </div>
+
+        <div class="container">
+                <form action="contact.html" method="GET">
+                    <label>Date</label><br>
+                    <input type="date" name="date"><br><br>
+                    <label>Your Name</label><br>
+                    <input type="text" name="firstname" placeholder="first name">
+                    <input type="text" name="lastname" placeholder="last name"><br><br>
+                    <label>Your Email</label><br>
+                    <input type="email" name="email" placeholder="example@gmail.com"><br><br>
+                    <input type="radio" value="male" name="gender">Male<br>
+                    <input type="radio" value="female" name="gender">Female<br><br>
+                    <label>Favorite Color</label>
+                    <input type="color" name="color"><br><br>
+                    <label>Pendidikan Terakhir</label>
+                    <select name="pendidikanTerakhir">
+                        <option value="sd">SD</option>
+                        <option value="smp">SMP</option>
+                        <option value="sma">SMA</option>
+                        <option value="s1">S1</option>
+                        <option value="s2">S2</option>
+                        <option value="s3">S3</option>
+                        <option value="tidaksekolah">Tidak sekolah</option>
+                    </select><br><br>
+                    <label>Your Message</label><br>
+                    <textarea rows="10" cols="50" name="message"></textarea><br><br>
+                    <input type="submit" value="kirim">
+                </form>
+          </div>
 </body>
 </html>
